@@ -38,5 +38,8 @@ BOARD_RIL_CLASS := ../../../device/samsung/serranodsdd/ril
 # BLN
 BOARD_HAVE_GENERIC_BLN := true
 
+# Charger
+BOARD_NO_CHARGER_LED := true
+
 # Disable Block Based OTA
 BLOCK_BASED_OTA=false
