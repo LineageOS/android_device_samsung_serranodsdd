@@ -9,6 +9,7 @@ persist.dsds.enabled=true
 persist.multisim.config=dsds
 persist.radio.multisim.config=dsds
 ro.multi.rild=true
+ro.multisim.simslotcount=2
 ro.telephony.default_network=3
 ro.telephony.ril_class=SerranoDSRIL
 ro.telephony.ril.config=simactivation
