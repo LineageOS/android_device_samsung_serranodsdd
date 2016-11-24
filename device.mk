@@ -22,6 +22,10 @@ $(call inherit-product, vendor/samsung/serranodsdd/serranodsdd-vendor.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/serranodsdd/overlay
 
+# RIL
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.ril_class=SerranoDSRIL
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
