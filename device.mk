@@ -16,6 +16,9 @@
 # Inherit from serrano-common
 $(call inherit-product, device/samsung/serrano-common/serrano-common.mk)
 
+# Also get non-open-source specific aspects
+$(call inherit-product, vendor/samsung/serranodsdd/serranodsdd-vendor.mk)
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/serranodsdd/overlay
 
