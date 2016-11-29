@@ -38,4 +38,4 @@ service ril-daemon2 /system/bin/rild -s rild2 -ds rild-debug2 -l /system/lib/lib
     socket rild-debug2 stream 660 radio system
     user root
     disabled
-    group radio cache inet misc audio log qcom_diag sdcard_r shell sdcard_rw system drmrpc
+    group radio cache inet misc audio log qcom_diag sdcard_r shell sdcard_rw system drmrpc wakelock
