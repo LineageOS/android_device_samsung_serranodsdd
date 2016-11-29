@@ -34,10 +34,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/serranodsdd/init.carrier.rc:root/init.carrier.rc \
     device/samsung/serranodsdd/init.class_main.sh:root/init.class_main.sh
-
-# For userdebug builds
-ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.secure=0 \
-    ro.adb.secure=0 \
-    ro.debuggable=1 \
-    persist.service.adb.enable=1
