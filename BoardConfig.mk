@@ -27,7 +27,7 @@
 -include vendor/samsung/serranodsdd/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := serranods,serranodsdd,serranodsub,serranodsxx,GT-I9192
+TARGET_OTA_ASSERT_DEVICE := serranods,serranodsdd,serranodsub,serranodsxx
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_eur_3g_defconfig
