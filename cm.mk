@@ -28,7 +28,6 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-I9192
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRODUCT_NAME=serranodsxx \
-	TARGET_DEVICE=serranods \
-	BUILD_FINGERPRINT="samsung/serranodsxx/serranods:4.4.2/KOT49H/I9192XXUCNG2:user/release-keys" \
-	PRIVATE_BUILD_DESC="serranodsxx-user 4.4.2 KOT49H I9192XXUCNG2 release-keys"
+    TARGET_DEVICE=serranods \
+    BUILD_FINGERPRINT="samsung/serranodsdd/serranods:4.4.2/KOT49H/I9192DDUCOF2:user/release-keys" \
+    PRIVATE_BUILD_DESC="serranodsdd-user 4.4.2 KOT49H I9192DDUCOF2 release-keys"
