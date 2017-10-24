@@ -5,3 +5,6 @@ bin/rild
 lib/libril.so
 lib/libsec-ril.so
 lib/libsec-ril-dsds.so
+
+# Audio
+lib/libaudcal.so
