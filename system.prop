@@ -1,8 +1,9 @@
 # system.prop for serranodsdd
 #
 
-rild.libpath=/vendor/lib/libril-qc-qmi-1.so
-
+# RIL
+rild.libpath=/vendor/lib/libsec-ril.so
 persist.radio.multisim.config=dsds
+ro.multisim.simslotcount=2
 ro.telephony.default_network=3
 ro.telephony.ril.config=simactivation
