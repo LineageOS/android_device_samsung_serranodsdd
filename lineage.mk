@@ -30,5 +30,6 @@ PRODUCT_MODEL := GT-I9192
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=serranods \
-    BUILD_FINGERPRINT="samsung/serranodsdd/serranods:4.4.2/KOT49H/I9192DDUCOF2:user/release-keys" \
     PRIVATE_BUILD_DESC="serranodsdd-user 4.4.2 KOT49H I9192DDUCOF2 release-keys"
+
+BUILD_FINGERPRINT := "samsung/serranodsdd/serranods:4.4.2/KOT49H/I9192DDUCOF2:user/release-keys"
