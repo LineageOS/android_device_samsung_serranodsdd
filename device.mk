@@ -36,3 +36,11 @@ PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl \
     FM2 \
     qcom.fmradio
+
+# Radio
+PRODUCT_PACKAGES += \
+    qti-telephony-common \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
