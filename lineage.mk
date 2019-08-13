@@ -29,6 +29,7 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-I9192
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=serranodsdd \
     TARGET_DEVICE=serranods \
     PRIVATE_BUILD_DESC="serranodsdd-user 4.4.2 KOT49H I9192DDUCOF2 release-keys"
 
