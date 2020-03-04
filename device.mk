@@ -15,13 +15,13 @@
 #
 
 # Inherit from serrano-common
-$(call inherit-product, device/samsung/serrano-common/serrano-common.mk)
+$(call inherit-product, $(COMMON_PATH)/serrano-common.mk)
 
 # Also get non-open-source specific aspects
-$(call inherit-product, vendor/samsung/serranodsdd/serranodsdd-vendor.mk)
+$(call inherit-product, $(DEVICE_VENDOR_PATH)/serranodsdd-vendor.mk)
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/serranodsdd/overlay
+DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
-    device/samsung/serranodsdd/rild2.rc:system/vendor/etc/init/rild2.rc
+    $(DEVICE_PATH)/rild2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild2.rc
 
 # FM radio
 PRODUCT_PACKAGES += \
